@@ -1,0 +1,38 @@
+@import url("imports.css");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.header-content {
+  border-bottom: 1px solid var(--secondary-alt-color);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  font-family: var(--font-default);
+  grid-column: 4 /10;
+}
+
+.nav_list {
+  display: flex;
+  gap: 75px;
+  list-style: none;
+}
+
+.nav_item {
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}

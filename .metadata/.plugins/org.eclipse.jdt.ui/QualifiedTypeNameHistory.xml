@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
+    <fullyQualifiedTypeName name="org.springframework.orm.jpa.vendor.Database"/>
+    <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
+</qualifiedTypeNameHistroy>

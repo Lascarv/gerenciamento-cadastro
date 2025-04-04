@@ -3,6 +3,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  background-color: var(--primary-color);
 }
 
 .container {
@@ -35,4 +36,83 @@
   text-decoration: none;
   text-transform: uppercase;
   color: var(--secondary-color);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 4 / 10;
+  gap: 60px;
+  color: var(--secondary-color);
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.title_main {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 5em;
+}
+
+.title_span {
+  font-weight: 300;
+}
+
+.subtitle_main {
+  font-family: var(--font-subtitle);
+  font-weight: 100;
+  color: var(--secondary-alt-color);
+}
+
+.buttons-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.title_button {
+  font-family: var(--font-subtitle);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.buttons_group {
+  display: flex;
+  gap: 40px;
+}
+
+.button_new,
+.button_default {
+  font-family: var(--font-default);
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border: 1px solid var(--secondary-alt-color);
+  border-radius: 3px;
+}
+
+.text_main {
+  font-family: var(--font-subtitle);
+  font-weight: 100;
+  font-size: 1.1em;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 30px;
+  max-width: 85ch;
+}
+
+/* PSEUDO CLASSES */
+
+.container:has(+ .container) {
+  margin-bottom: 100px;
 }
